@@ -29,7 +29,7 @@ Dear ImGui is self-contained within a few files that you can easily copy and com
   - stb_textedit.h
   - stb_truetype.h
 
-No specific build process is required. You can add the .cpp files to your project or #include them from an existing file.
+No specific build process is required. You can add the .cpp files to your project or #include them from an existing file. A meson build system is provided for meson's wrap functionality, but there is no requirement or recommendation to use meson over another build system.
 
 Your code passes mouse/keyboard inputs and settings to Dear ImGui (see example applications for more details). After Dear ImGui is setup, you can use it like in this example:
 

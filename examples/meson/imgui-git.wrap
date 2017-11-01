@@ -1,0 +1,4 @@
+[wrap-git]
+directory = imgui
+url = https://github.com/ocornut/imgui
+revision = head
